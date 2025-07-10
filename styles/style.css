@@ -46,4 +46,30 @@ nav ul li a{
     font-weight: bold;
     color: #252432;
     margin: 0px 267px;
+}
 
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* action styles */
+.action{
+    display: flex;
+    gap: 220px;
+    margin: 116px 0px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.action-sub-title{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+}
+
+.action-image{
+    border-radius: 48px;
+}
