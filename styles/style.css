@@ -37,6 +37,7 @@ nav ul li a{
     border: none;
 }
 
+
 /* banner styles */
 .banner{
     text-align: center;
@@ -72,4 +73,35 @@ main{
 
 .action-image{
     border-radius: 48px;
+}
+
+/* productive styles */
+.productive{
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;  
+    padding: 50px;  
+}
+.productive-users-view{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.productive-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center; 
+    margin-bottom: 0px;      
+}
+.productive-sub-title{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin-bottom: 0px;
+}
+
+.productive-description{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5); 
+    margin-top: 10px;   
 }
