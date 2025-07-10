@@ -76,7 +76,7 @@ main{
 }
 
 /* productive styles */
-.productive{
+.productive-bg{
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 24px;  
     padding: 50px;  
@@ -84,7 +84,7 @@ main{
 .productive-users-view{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center;    
 }
 .productive-title{
     font-size: 38px;
@@ -104,4 +104,18 @@ main{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5); 
     margin-top: 10px;   
+}
+
+/* get touch styles */
+.get-touch{
+    display: flex;
+    gap: 115px;
+    width: 50%;
+}
+main section input[type="text"], main section input[type="email"], main section textarea{
+    border-radius: 10px;
+    padding: 20px 20px;
+    width: 100%;
+    display: block;
+
 }
