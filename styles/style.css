@@ -4,6 +4,14 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 header{
     background-image: url(../Assets/Hero-bg.png); 
     max-width: 1440px;
@@ -19,7 +27,8 @@ nav{
 }
 .nav-title{
     font-size: 34px;
-    color: rgba(78, 71, 255, 1)
+    color: rgba(78, 71, 255, 1);
+    font-weight: 900;
 }
 nav ul li{
     list-style: none;
@@ -55,11 +64,14 @@ nav ul li a{
     color: #252432;
     margin: 0px 267px;
 }
+.banner-btn-margin{
+    margin-bottom: 152px;
+}
 
 /* main styles */
 main{
     max-width: 1140px;
-    margin: 0 auto;   
+    margin: 0 auto;    
 }
 
 /* action styles */
@@ -113,6 +125,54 @@ main{
     margin-top: 10px;   
 }
 
+/* users review styles */
+
+.review-title{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 136px;
+}
+.review-container{
+    display: flex;
+    
+}
+.review-sub-title{
+    font-size: 24px;
+    color: #1E1E1E;
+}
+.review-description{
+    font-size: 14px;
+    color: #1E1E1E;
+}
+.reviewer-name{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
+
+.reviewer-name-title{
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 0px;
+}
+.reviewer-name-date{
+    font-size: 12px;
+    color: #B3B3B3;
+    margin-top: 0px;
+}
+main section .reviewer-name img{
+    border-radius: 50px;
+}
+
+.review-coloum{
+    padding: 50px; 
+    box-shadow: 0px 6px 50px 0px #c8c6c680; 
+    border-radius: 14px;
+    margin: 0px 20px;
+}
+
 /* get touch styles */
 .get-touch{
     display: flex;
@@ -139,12 +199,13 @@ main section input[type="text"], main section input[type="email"], main section 
     width: 100%;
     display: block; 
     margin-bottom: 19px;
-    font-size: 20px; 
+    font-size: 20px;
+    border: 1px solid #cfcdcd; 
  
 }
 main section label{
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     color: #000000;
 }
 
@@ -154,11 +215,15 @@ main section label{
 
 /* footer styles */
 
+footer{
+    background-image: url(../Assets/Hero-bg.png); 
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .footer-container{
     padding: 103px 454px;
-    text-align: center;
-    max-width: 1440px;
-    margin: 0 auto;  
+    text-align: center;      
 }
 .footer-title{
     font-size: 100px;
